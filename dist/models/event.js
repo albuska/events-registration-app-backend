@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.eventSchema = exports.Event = void 0;
 const mongoose_1 = require("mongoose");
-const helpers_1 = require("../helpers");
 const eventSchema = new mongoose_1.Schema({
     title: {
         type: String,
@@ -26,7 +25,6 @@ const eventSchema = new mongoose_1.Schema({
     timestamps: true,
 });
 exports.eventSchema = eventSchema;
-eventSchema.post("save", helpers_1.handleMongooseError);
+// eventSchema.post("save", handleMongooseError);
 const Event = (0, mongoose_1.model)("event", eventSchema);
 exports.Event = Event;
-//# sourceMappingURL=event.js.map

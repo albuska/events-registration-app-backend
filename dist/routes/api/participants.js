@@ -11,4 +11,3 @@ const router = express_1.default.Router();
 router.get("/", controllers_1.listParticipants.listParticipants);
 router.post("/", (0, middlewares_1.validateBody)(models_1.participantSchema), controllers_1.addParticipant.addParticipant);
 exports.default = router;
-//# sourceMappingURL=participants.js.map

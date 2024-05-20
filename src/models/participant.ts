@@ -52,7 +52,7 @@ const participantSchema = new Schema<IParticipant>(
   }
 );
 
-participantSchema.post("save", handleMongooseError);
+// participantSchema.post("save", handleMongooseError);
 
 const Participant =
   models.Participant || model("participant", participantSchema);

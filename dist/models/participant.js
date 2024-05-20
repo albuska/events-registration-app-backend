@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.participantSchema = exports.Participant = void 0;
 const mongoose_1 = require("mongoose");
-const helpers_1 = require("../helpers");
 var ESelectedRadio;
 (function (ESelectedRadio) {
     ESelectedRadio["SOCIAL_MEDIA"] = "social media";
@@ -42,7 +41,6 @@ const participantSchema = new mongoose_1.Schema({
     timestamps: true,
 });
 exports.participantSchema = participantSchema;
-participantSchema.post("save", helpers_1.handleMongooseError);
+// participantSchema.post("save", handleMongooseError);
 const Participant = mongoose_1.models.Participant || (0, mongoose_1.model)("participant", participantSchema);
 exports.Participant = Participant;
-//# sourceMappingURL=participant.js.map

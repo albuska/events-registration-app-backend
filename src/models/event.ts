@@ -34,7 +34,7 @@ const eventSchema = new Schema<IEvent>(
   }
 );
 
-eventSchema.post("save", handleMongooseError);
+// eventSchema.post("save", handleMongooseError);
 
 const Event = model("event", eventSchema);
 

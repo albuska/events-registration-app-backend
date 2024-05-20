@@ -7,4 +7,3 @@ const httpError = (status, message) => {
     return error;
 };
 exports.httpError = httpError;
-//# sourceMappingURL=httpError.js.map

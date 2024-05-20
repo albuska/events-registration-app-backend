@@ -4,7 +4,6 @@ import { ctrlWrapper } from "../../helpers";
 
 const listParticipants = async (req: Request, res: Response) => {
   const result = await Participant.find();
-  console.log(result, "resultPart");
 
   res.status(200).json({
     result,
@@ -14,4 +13,3 @@ const listParticipants = async (req: Request, res: Response) => {
 export default {
   listParticipants: ctrlWrapper(listParticipants),
 };
-
