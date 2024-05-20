@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "events-registration-app-backend",
+  "builds": [
+    {
+      "src": "/dist/server.js",
+      "use": "@vercel/node",
+      "config": { "includeFiles": ["dist/**"] }
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "/dist/server.js" }]
+}
