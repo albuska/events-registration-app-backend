@@ -3,7 +3,7 @@
   "name": "events-registration-app-backend",
   "builds": [
     {
-      "src": "/dist/server.js",
+      "src": "/server.js",
       "use": "@vercel/node",
       "config": { "includeFiles": ["dist/**"] }
     }
