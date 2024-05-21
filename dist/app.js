@@ -9,8 +9,6 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const events_1 = __importDefault(require("./routes/api/events"));
 const participants_1 = __importDefault(require("./routes/api/participants"));
 const app = (0, express_1.default)();
-// const formatsLogger = app.get("env") === "development" ? "dev" : "short";
-// app.use(logger(formatsLogger));
 app.use((0, cors_1.default)());
 app.use(express_1.default.json());
 app.use(express_1.default.static("public"));

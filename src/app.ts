@@ -1,5 +1,4 @@
 import express, { Application, Request, Response } from "express";
-import logger from "morgan";
 import cors from "cors";
 import mongoose from "mongoose";
 
@@ -8,9 +7,6 @@ import participantsRouter from "./routes/api/participants";
 
 const app: Application = express();
 
-// const formatsLogger = app.get("env") === "development" ? "dev" : "short";
-
-// app.use(logger(formatsLogger));
 app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
