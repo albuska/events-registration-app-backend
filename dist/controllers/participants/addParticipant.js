@@ -11,4 +11,3 @@ const addParticipant = async (req, res) => {
 exports.default = {
     addParticipant: (0, helpers_1.ctrlWrapper)(addParticipant),
 };
-//# sourceMappingURL=addParticipant.js.map

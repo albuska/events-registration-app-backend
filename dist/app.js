@@ -37,4 +37,3 @@ app.use((err, req, res) => {
     res.status(status).json({ message });
 });
 exports.default = app;
-//# sourceMappingURL=app.js.map

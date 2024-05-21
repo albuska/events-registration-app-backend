@@ -12,4 +12,3 @@ const ctrlWrapper = (ctrl) => {
     };
 };
 exports.ctrlWrapper = ctrlWrapper;
-//# sourceMappingURL=ctrlWrapper.js.map

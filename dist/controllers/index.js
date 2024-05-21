@@ -6,4 +6,3 @@ Object.defineProperty(exports, "listEvents", { enumerable: true, get: function (
 const participants_1 = require("./participants");
 Object.defineProperty(exports, "addParticipant", { enumerable: true, get: function () { return participants_1.addParticipant; } });
 Object.defineProperty(exports, "listParticipants", { enumerable: true, get: function () { return participants_1.listParticipants; } });
-//# sourceMappingURL=index.js.map

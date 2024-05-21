@@ -28,4 +28,3 @@ exports.eventSchema = eventSchema;
 // eventSchema.post("save", handleMongooseError);
 const Event = (0, mongoose_1.model)("event", eventSchema);
 exports.Event = Event;
-//# sourceMappingURL=event.js.map

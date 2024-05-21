@@ -17,4 +17,3 @@ const validateBody = (schema) => {
     return func;
 };
 exports.validateBody = validateBody;
-//# sourceMappingURL=validateBody.js.map

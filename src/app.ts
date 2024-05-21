@@ -1,4 +1,4 @@
-import express, { Request, Response } from "express";
+import express, { Application, Request, Response } from "express";
 import logger from "morgan";
 import cors from "cors";
 import mongoose from "mongoose";
@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 import eventsRouter from "./routes/api/events";
 import participantsRouter from "./routes/api/participants";
 
-const app = express();
+const app: Application = express();
 
 // const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 

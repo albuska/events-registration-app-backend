@@ -7,4 +7,3 @@ const ctrlWrapper_1 = require("./ctrlWrapper");
 Object.defineProperty(exports, "ctrlWrapper", { enumerable: true, get: function () { return ctrlWrapper_1.ctrlWrapper; } });
 const handleMongooseError_1 = require("./handleMongooseError");
 Object.defineProperty(exports, "handleMongooseError", { enumerable: true, get: function () { return handleMongooseError_1.handleMongooseError; } });
-//# sourceMappingURL=index.js.map

@@ -44,4 +44,3 @@ exports.participantSchema = participantSchema;
 // participantSchema.post("save", handleMongooseError);
 const Participant = mongoose_1.models.Participant || (0, mongoose_1.model)("participant", participantSchema);
 exports.Participant = Participant;
-//# sourceMappingURL=participant.js.map
