@@ -3,7 +3,7 @@ import { Participant } from "../../models";
 import { ctrlWrapper } from "../../helpers";
 
 const listParticipants = async (req: Request, res: Response) => {
-  const result = await Participant.find();
+  const result = await Participant.find({ event: req.params.eventId });
 
   res.status(200).json({
     result,
