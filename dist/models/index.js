@@ -9,3 +9,4 @@ const participant_1 = require("./participant");
 Object.defineProperty(exports, "Participant", { enumerable: true, get: function () { return participant_1.Participant; } });
 const participant_2 = require("./participant");
 Object.defineProperty(exports, "participantSchema", { enumerable: true, get: function () { return participant_2.participantSchema; } });
+//# sourceMappingURL=index.js.map

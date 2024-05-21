@@ -8,3 +8,4 @@ const getListParticipants_1 = __importDefault(require("./getListParticipants"));
 exports.listParticipants = getListParticipants_1.default;
 const addParticipant_1 = __importDefault(require("./addParticipant"));
 exports.addParticipant = addParticipant_1.default;
+//# sourceMappingURL=index.js.map

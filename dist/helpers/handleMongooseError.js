@@ -8,3 +8,4 @@ const handleMongooseError = (error, data, next) => {
     next();
 };
 exports.handleMongooseError = handleMongooseError;
+//# sourceMappingURL=handleMongooseError.js.map
