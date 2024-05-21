@@ -8,5 +8,6 @@
       "config": { "includeFiles": ["dist/**"] }
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "/dist/server.js" }]
+  "routes": [{ "src": "/(.*)", "dest": "/dist/server.js" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
