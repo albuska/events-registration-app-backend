@@ -1,4 +1,4 @@
-import { listEvents } from "./events";
+import { listEvents, getEventById } from "./events";
 import { addParticipant, listParticipants } from "./participants";
 
-export { listEvents, addParticipant, listParticipants };
+export { listEvents, getEventById, addParticipant, listParticipants };
