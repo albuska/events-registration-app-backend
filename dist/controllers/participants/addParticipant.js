@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const helpers_1 = require("../../helpers");
 const models_1 = require("../../models");
 const addParticipant = async (req, res) => {
-    const { _id: event } = req.body;
+    const { event } = req.body;
     const { body } = req;
     const result = await models_1.Participant.create({ ...body, event });
     res.status(201).json(result);
